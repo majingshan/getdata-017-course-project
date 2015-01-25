@@ -1,6 +1,6 @@
 ## getdata-017-course-project
 
-# data porcess pipeline
+### data porcess pipeline
 1.load features from 'features.txt'
 2.genarate the feature filter by feature name using regular expression 'mean\\(\\)|std\\(\\)'
 3.load activity labels from 'activity_labels.txt'
@@ -19,15 +19,17 @@
 9. transpose the data frame
 
 
-# how to run the code
+### how to run the code
 download data from here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 extract the zip archive
 
-copy run_analysis.R to the root folder for extracted data
+copy run_analysis.R to the root folder of extracted data
 
 open R terminal 
+
+set working directory to the data folder
 
 type the following command:
 
